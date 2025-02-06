@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Логические задачи</title>
+    <style>
+.bold{font: weight:700;}
+.colortext{color:rgb(246, 251, 251);}
+.boldtext{font-style:italic;}
+.small{font-size: 50px;}
+h1{font-family: Segoe Print;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body {
+    background-image: url('UKqv0CGECIQ.jpg');
+    background-size: cover; /* Убедитесь, что изображение покрывает всю область */
+    background-position: center; /* Центрирует изображение на экране */
+    height: 100vh; /* Высота на весь экран */
+    color: white; /* Цвет текста */
+    display: flex; /* Flexbox для центрирования контента */
+    justify-content: center; /* Центрируем горизонтально */
+    align-items: center; /* Центрируем вертикально */
+
+    font-family: Segoe Print;
+            line-height: 1.6;
+            margin: 30px;
+            padding: 30px;
+        
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+            
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            text-align: justify;
+            color: #ffffff;
+        }
+
+
+.container {
+    text-align: center; /* Выравнивание текста по центру */
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для читаемости */
+    padding: 20px; /* Отступы */
+    border-radius: 8px; /* Скругленные углы */
+
+    display: flex;
+            flex-direction: column;
+            align-items: center; /* Центрирование по горизонтали */
+            justify-content: flex-end; /* Выравнивание по низу */
+            height:0; /* Высота контейнера на весь экран */
+            padding:0; /* Отступы */ }
+
+
+        .my-button {
+            margin-top: 20px; /* Отступ сверху для кнопки */
+            width: 100px; /* Ширина кнопки */
+            height: 50px; /* Высота кнопки */
+            font-size: 16px; /* Размер шрифта */
+            border-radius: 5px; 
+            cursor: pointer;
+            }
+
+</style>
+</head>
+<body>
+    <div class="container">
+    <h1 align=center class="colortext bold boldtext small">Логическая задача №1</h1>
+    <div class="content">
+        <p>Есть три стакана: в первом черника, во втором земляника, в третьем – смесь черники с земляникой. Каждый стакан помечен неверно. Вы можете достать одну ягоду из одного стакана, при этом заглядывать внутрь нельзя. Как узнать содержимое всех стаканов и правильно расставить метки?</p>
+    </div>
+    <button class="my-button" onclick="location.href='lzo.html'">Ответ</button>
+    </div>
+</body>
+</html>
